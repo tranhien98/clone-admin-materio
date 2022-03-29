@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserLayout from './layouts/UserLayout';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserLayout />
   </React.StrictMode>,
   document.getElementById('root')
 );
